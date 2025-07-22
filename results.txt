@@ -1,0 +1,14 @@
+Server: https://github.com
+  Success: 3
+  Failed: 0 (server) / 0 (connection)
+  Time: min=1.395s, max=1.650s, avg=1.495s
+
+Server: https://google.com
+  Success: 3
+  Failed: 0 (server) / 0 (connection)
+  Time: min=2.266s, max=2.358s, avg=2.321s
+
+Server: https://example.com
+  Success: 3
+  Failed: 0 (server) / 0 (connection)
+  Time: min=6.123s, max=6.560s, avg=6.273s
