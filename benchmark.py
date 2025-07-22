@@ -96,10 +96,10 @@ def format_results(results):
     """Форматирует результаты для вывода"""
     report = []
     for res in results:
-        report.append(f"[{res['url']}]")
-        report.append(f"  Успешно: {res['success']}")
-        report.append(f"  Ошибки: {res['failed']} (сервер) / {res['errors']} (соединение)")
-        report.append(f"  Время: min={res['min']:.3f}s, max={res['max']:.3f}s, avg={res['avg']:.3f}s")
+        report.append(f"Server: {res['url']}")
+        report.append(f"  Success: {res['success']}")
+        report.append(f"  Failed: {res['failed']} (server) / {res['errors']} (connection)")
+        report.append(f"  Time: min={res['min']:.3f}s, max={res['max']:.3f}s, avg={res['avg']:.3f}s")
         report.append("")
     return "\n".join(report)
 
