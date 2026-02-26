@@ -1,14 +1,20 @@
-Server: https://github.com
-  Success: 3
-  Failed: 0 (server) / 0 (connection)
-  Time: min=1.395s, max=1.650s, avg=1.495s
 
-Server: https://google.com
-  Success: 3
-  Failed: 0 (server) / 0 (connection)
-  Time: min=2.266s, max=2.358s, avg=2.321s
+============================================================
+HTTP SERVER BENCHMARK RESULTS
+============================================================
+2026-02-27 00:58:19
 
-Server: https://example.com
-  Success: 3
-  Failed: 0 (server) / 0 (connection)
-  Time: min=6.123s, max=6.560s, avg=6.273s
+#1 https://example.com
+  ├─ 3/3 (100.0%) | 0 | 0
+  └─ min=0.156s max=0.233s avg=0.206s σ=0.036s
+
+#2 https://google.com
+  ├─ 3/3 (100.0%) | 0 | 0
+  └─ min=0.292s max=0.305s avg=0.299s σ=0.005s
+
+#3 https://github.com
+  ├─ 3/3 (100.0%) | 0 | 0
+  └─ min=0.371s max=0.411s avg=0.394s σ=0.017s
+
+────────────────────────────────────────────────────────────
+Total: 0.42s
