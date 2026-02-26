@@ -63,5 +63,5 @@ https://github.com
 ```
 
 ## Требования
-- Python 3.6+
-- Библиотека requests
+- Python 3.8+
+- Библиотека aiohttp 3.8.0+
