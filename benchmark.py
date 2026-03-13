@@ -122,8 +122,7 @@ def parse_args():
     """Парсит аргументы командной строки"""
     parser = argparse.ArgumentParser(
         description='Async HTTP Server Benchmark Tool',
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="Примеры:\n  python bench.py -H https://ya.ru,https://google.com -C 10\n  python bench.py -F urls.txt -C 20 -P 15 -O results.txt"
+        formatter_class=argparse.RawDescriptionHelpFormatter
     )
 
     group = parser.add_mutually_exclusive_group(required=True)
